@@ -1,0 +1,42 @@
+{
+  "columns": {
+    "comments.tsv": [
+      "id",
+      "brand",
+      "layout",
+      "light",
+      "reply_to",
+      "text"
+    ],
+    "glossary.tsv": [
+      "id",
+      "brand",
+      "market",
+      "sample",
+      "name",
+      "photo_right"
+    ],
+    "outlets.tsv": [
+      "id",
+      "brand",
+      "market",
+      "style",
+      "phase",
+      "orders"
+    ],
+    "assets.tsv": [
+      "id",
+      "layout",
+      "region",
+      "retain"
+    ]
+  },
+  "references": [
+    [
+      "comments.tsv",
+      "reply_to",
+      "comments.tsv"
+    ]
+  ],
+  "compound_keys": []
+}
