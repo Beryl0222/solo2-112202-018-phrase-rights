@@ -11,6 +11,8 @@ TSV 文件采用 UTF-8，首行为列名。行首 id 是该表的稳定记录号
 - `materials/outlets.tsv`。style 为渠道最终实物呈现方式。orders 仅记录实际订单中见到的色名。
 - `materials/assets.tsv`。layout 是拍摄图，region 为原片登记的可写范围，retain 记录编辑要求保留的辨样依据。
 - `materials/requests.tsv`。order 为已成交记录编号，received 是导购登记时点。body 保留顾客原话。
+- `materials/catalog_views.tsv`。导购实际使用的渠道用语及商品样色登记，草稿不对用户开放。
+- `materials/order_views.tsv`。订单快照保留结账时顾客的选择和当时渠道稿。
 
 ## 运行资料检查
 

@@ -35,6 +35,21 @@
       "order",
       "received",
       "body"
+    ],
+    "catalog_views.tsv": [
+      "id",
+      "outlet",
+      "published",
+      "label",
+      "sample",
+      "layout"
+    ],
+    "order_views.tsv": [
+      "id",
+      "order",
+      "view",
+      "at",
+      "customer_note"
     ]
   },
   "references": [
@@ -42,6 +57,16 @@
       "comments.tsv",
       "reply_to",
       "comments.tsv"
+    ],
+    [
+      "catalog_views.tsv",
+      "outlet",
+      "outlets.tsv"
+    ],
+    [
+      "order_views.tsv",
+      "view",
+      "catalog_views.tsv"
     ]
   ],
   "compound_keys": []
