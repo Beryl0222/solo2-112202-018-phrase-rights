@@ -29,6 +29,12 @@
       "layout",
       "region",
       "retain"
+    ],
+    "requests.tsv": [
+      "id",
+      "order",
+      "received",
+      "body"
     ]
   },
   "references": [
